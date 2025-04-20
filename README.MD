@@ -15,7 +15,7 @@
 
 ### 📸 Screenshot
 
-![screenshot](https://your-screenshot-url.com) <!-- Optional: Upload screenshot or remove this line -->
+![screenshot](https://i.ibb.co.com/wFJLfpFM/Screenshot-2025-04-20-161059.png) <!-- Optional: Upload screenshot or remove this line -->
 
 ---
 
