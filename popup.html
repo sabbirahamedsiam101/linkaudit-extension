@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LinkAudit</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-wrapper">
+    <h1>🔗 LinkAudit</h1>
+    <button id="scanBtn">Scan This Page</button>
+
+    <div id="loading" class="loading hidden">Scanning links...</div>
+
+    <div id="results" class="hidden">
+      <div class="stat"><strong>Total Links:</strong> <span id="totalLinks">0</span></div>
+      <div class="stat"><strong>Dofollow:</strong> <span class="badge green" id="dofollowCount">0</span></div>
+      <div class="stat"><strong>Nofollow:</strong> <span class="badge red" id="nofollowCount">0</span></div>
+      <div class="stat"><strong>Internal:</strong> <span class="badge blue" id="internalCount">0</span></div>
+      <div class="stat"><strong>External:</strong> <span class="badge gray" id="externalCount">0</span></div>
+      <div class="stat"><strong>Broken Links:</strong> <span class="badge darkred" id="brokenCount">0</span></div>
+
+      <div id="brokenList" class="broken-list hidden">
+        <h3>⚠️ Broken Links:</h3>
+        <ul id="brokenLinks"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
